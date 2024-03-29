@@ -1,8 +1,9 @@
 # Imitating Cost Constrained Behaviors in Reinforcement Learning
-the code is bulit on  OpenAI Baselines library, firstly need to install baselines, mujoco and [safety gym](https://github.com/openai/safety-gym).
-Our implementation is in /baselines/gail/. 
 
-#  Imitating Cost Constrained Behaviors in Reinforcement Learning
+The code is built on  OpenAI Baselines library, firstly need to install [baselines](https://github.com/openai/baselines), [mujoco](https://github.com/openai/mujoco-py) and [safety gym](https://github.com/openai/safety-gym).
+
+
+Our implementation is in [/baselines/gail](/baselines/gail/). 
 
 ###  Download Expert data 
 Download link https://drive.google.com/open?id=1U_-YDuWuDEI8e_f6Kp5cM-E3c9mEePTb&usp=drive_fs
