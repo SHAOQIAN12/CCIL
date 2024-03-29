@@ -14,7 +14,7 @@ Store expert data in `./baselines/gail/dataset/`
 ###  Example 
 
 ###  Run CCIL/CVAG
-python run_mujoco_meta.py --env_id Swimmer-v3 --expert_path .../gail/dataset/Swimmer-v3.npz --save_per_iter 500 --num_timesteps 1e7 --traj_limitation 10 --penalty 0.01 --batch_size=2000 --cost_t 1 -add_cost True --cost_method lagrangian
+python run_mujoco.py --env_id Swimmer-v3 --expert_path .../gail/dataset/Swimmer-v3.npz --save_per_iter 500 --num_timesteps 1e7 --traj_limitation 10 --penalty 0.01 --batch_size=2000 --cost_t 1 -add_cost True --cost_method lagrangian
 
  
 ###  Run MALM
